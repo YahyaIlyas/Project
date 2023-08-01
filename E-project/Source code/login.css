@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .img{
+    border-top-left-radius:30px ;
+    border-bottom-right-radius:30px ;
+    
+    }
+    
+    .img-fluid{
+    margin-left: -10px;
+    height: 400px;
+    width: 450px;
+    border-radius: 15px;
+    }
+    
+    
+    .form{
+        margin-top: 70px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background: rgb(252, 253, 253);
+    }
+    
+    
+    
+    .row{
+    
+    border-radius:15px ;
+    
+    }
+    
+ 
+    .inputbox input[type="submit"]{
+        width: 100px;
+        background: #da1002;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    padding: 10px;
+    font-size: 18px;}
+
+
+    .inputbox input:hover{
+background-color: rgb(2, 0, 0);
+
+
+    }

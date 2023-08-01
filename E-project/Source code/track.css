@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.box111{
+text-align: center;
+margin-top: 40px;
+}
+
+
+.box101{
+    text-align: center;
+    margin-top: 40px;
+    
+    }
+     
+    .form-cnt{
+        
+        margin-left: 530px;
+        margin-right: 20px;
+        background: rgb(252, 253, 253);
+        align-items: center;
+        padding: 10px;
+        border-radius: 10px;
+        width: 300px;
+        font-weight: 200px;
+
+        
+    }
+    .btn20{
+        margin-left: 590px;
+        border-radius: 10px;
+        padding: 10px;
+        width: 185px;
+        font-weight: 500;
+        background-color:red;
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 30px;
+    }
+    .btn20:hover{
+        background-color: rgb(36, 33, 33);
+        color: rgb(253, 251, 251);
+    }

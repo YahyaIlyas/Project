@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.contact{position: relative;
+min-height: 100vh;
+padding: 50px 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background: url(bg.jpg);
+background-size: cover;
+
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.contact .content p{
+    
+    font-weight: 300;
+    color: #fff;
+    
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+
+.container .contactinfo .box .text{
+display: flex;
+margin-left: 20px;
+font-size: 16px;
+color: #fff;
+flex-direction: column;
+font-weight: 300;
+}
+
+.container .contactinfo .box .text h3{
+    font-weight: 500;
+    color: #a73fa7;
+}
+
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactform h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+} 
+
+.contactform .inputbox{
+    position: relative;
+    width: 100% ;
+    margin-top: 10px;
+
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 100%;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+border: none;
+border-bottom: 2px solid #333;
+outline: none;
+resize: none;
+}
+
+.contactform .inputbox span{position: absolute;
+left: 0;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+pointer-events: none;
+transition: 0.5s;
+color: #666;
+
+}
+
+
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span{color: e91e63;
+font-size: 12px;
+ transform: translateY(-20px);
+}
+
+.contactform .inputbox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+padding: 10px;
+font-size: 18px;
+
+}
+@media(max-width:991px)
+{
+    .contact{padding: 50px;}
+    .container{
+        flex-direction: column;
+    }
+    .container .contactinfo{margin-bottom: 40px;}
+    .container .contactinfo,
+    .contactform{width: 100%;}
+
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{line-height: 1.5;
+    font-family: 'Poppins', sans-serif;}
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+.footer{
+    background-color: #241420;
+padding: 70px 0;
+}
+.container{
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto;
+}
+ul{list-style: none;}
+.row{display: flex;
+flex-wrap: wrap;}
+.box{width: 25%;
+padding: 0 15px;
+}
+
+.box h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.box h4{
+    background-color: red
+}
+.box ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.box ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.box ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.box .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+margin:0 10px 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition: all 0.5s ease;
+}
+.box .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+@media(max-width:767px ){
+    .box{
+        width: 50%;
+       margin-bottom: 30px;
+
+    }
+}
+@media(max-width:574px ){
+    .box{
+        width: 100%;
+       
+
+    }
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .navbar-brand{
+    font-size: 25px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    
+    .navbar-brand:hover{
+    color: rgb(255, 3, 3);
+    }
+    
+    
+    .nav-link{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    text-transform: uppercase;
+    
+    }
+    
+    .nav-link:hover{
+    color: red;
+    }
+    
+    .search{
+    height: 40px;
+    width: 170px;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid rgb(252, 1, 1);
+    margin-right: -70px;
+    }
+    
+    
+    
+    
+    .btn0{
+    height: 40px;
+    width: 70px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background:rgb(252, 1, 1);
+    color: white;
+    font-weight: 700;
+    }
+    
+    .btn0:hover{
+        background-color: rgb(6, 6, 5);
+        color: rgb(253, 251, 251);
+        
+    }
+    
+    
+    .box1{
+    background-image: url(https://neutrogena.imgix.net/homepage/HB_20190206_Desktop.jpg);
+    background-size: cover;
+    height: 550px;
+    
+    }
+    .box1 h1{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    
+    }
+    .btn1{
+    height: 50px;
+    width: 170px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 3, 3);
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 50px;
+    }
+    
+    .btn1:hover{
+    background-color: rgb(6, 6, 5);
+    color: rgb(253, 251, 251);
+    
+    }
+    .btn2:hover{
+        background-color: rgb(6, 6, 5);
+        color: rgb(253, 251, 251);
+        
+        }
+    .btn2{
+    height: 50px;
+    width: 170px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 3, 3);
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    margin-left: 460px;
+    margin-top: 50px;
+    
+    
+    
+    }
+    
+    .card-body:hover{
+        -webkit-box-shadow: -3px -3px 25px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: -3px -3px 25px -4px rgba(0,0,0,0.75);
+        box-shadow: -3px -3px 25px -4px rgba(0,0,0,0.75);
+    
+        transition: 0.5;
+    }
+    
+    .Box4{
+    background-image: url(https://imagedelivery.net/V8gK1_2VVoan1sk2mbDlgA/6cb8be86-52ca-406e-0f89-ca7e5e628a00/public);
+    background-size: cover;
+    height: 600px;
+    
+    
+    }
+    
+    .btn3{
+        height: 50px;
+        width: 170px;
+        border: none;
+        outline: none;
+        background-color: rgb(255, 3, 3);
+        border-radius: 20px;
+        color: white;
+        font-weight: 700;
+    margin-top: 350px;
+        margin-left: 170px;
+       
+    
+    }
+    
+    .btn3:hover{
+        background-color: rgb(6, 6, 5);
+        color: rgb(253, 251, 251);
+    }
+    
